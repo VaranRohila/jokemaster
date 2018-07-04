@@ -1,5 +1,3 @@
 # jokemaster
 
-> A Vue.js project
-
-
+> A Vue.js project using Vuex
