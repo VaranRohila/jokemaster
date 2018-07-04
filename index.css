@@ -1,0 +1,8 @@
+#app{
+  font-family: 'Avenir', Helvetica, Arial, sans-sherif;
+  -webkit-font-smoothing: anitaliased;
+  text-align: center;
+  color: #2C3350;
+  margin-top: 60px;
+  font-size: 2em;
+}
