@@ -5,11 +5,11 @@
     <button type="button" class="btn btn-primary" name="button" @click="addJokes">Add One Random Jokes</button>
     <br>
     <br>
-    <div class="col-md-12">
-      <Joke
+    <div class="col-md-12" >
+    <Joke
       v-for="(joke,index) in $store.state.jokes"
       :joke="joke"
-      key="index"
+      :indie="index"
       />
     </div>
   </div>

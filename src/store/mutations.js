@@ -7,6 +7,8 @@ export const mutations = {
   },
   [types.ADD_JOKES] (state, payload) {
     state.jokes.push(payload)
+  },
+  [types.REM_JOKE] (state, payload) {
+    state.jokes.splice(payload, 1)
   }
-
 }
