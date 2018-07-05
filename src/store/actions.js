@@ -16,3 +16,7 @@ export const addJokes = ({commit}) => {
     .then(response => response.json())
     .then(json => commit(types.ADD_JOKES, json))
 }
+
+export const remJoke = ({commit}, index) => {
+  commit(types.REM_JOKE, index)
+}
