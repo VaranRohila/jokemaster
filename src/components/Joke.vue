@@ -2,9 +2,8 @@
   <div class="col-md-6">
     <div class="joke-card">
       <div class="card-block">
-          <div class="col-md-12 text-right">
-            <span class="btn" @click="remJoke(indie)" style="font-size:1.3em; cursor:pointer;">&times;</span>
-        </div>
+            <button @click='remJoke(indie)' class="close" name="button"><span>&times;</span></button>
+
         <p><u>{{joke.setup}} </u></p>
         <p><em>{{joke.punchline}}</em></p>
       </div>
