@@ -10,6 +10,7 @@
       v-for="(joke,index) in $store.state.jokes"
       :joke="joke"
       :indie="index"
+      :key="index"
       />
     </div>
   </div>
